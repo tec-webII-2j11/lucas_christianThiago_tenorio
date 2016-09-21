@@ -3,18 +3,18 @@
 
 Tema: Renascimento
 
-Público-alvo: 
+Público-alvo: Amantes da arte Renascentista
 
-Objetivos do site: 
+Objetivos do site: Compartilhar informações e cultura
 
-Funcionalidades do site: 
+Funcionalidades do site: Search box
 
-Usuário Administrador: 
+Usuário Administrador: Excluir usuários e alterar o tema do site
 
-Usuário Logado: 
+Usuário Logado: Inserir comentários
 
-Usuário Visitante: 
+Usuário Visitante: Apenas visualizar o conteúdo
 
 Mapa de Navegação: 
 
-Wireframe:
+[Wireframe]: (wireframe.pdf) 
