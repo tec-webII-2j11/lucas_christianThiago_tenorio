@@ -1,0 +1,139 @@
+/**
+@font-face {
+
+vermelho/verde/azul
+   119    105   96
+    99     79   70
+   118     92   75
+   162    127   95 
+   139    103   89 
+   126     86   74
+
+
+**/
+@font-face {
+    font-family: '001_medieval_dazeregular';
+    src: url('fonts/daze-webfont.eot');
+    src: url('fonts/daze-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/daze-webfont.woff2') format('woff2'),
+         url('fonts/fonts/daze-webfont.woff') format('woff'),
+         url('fonts/daze-webfont.ttf') format('truetype'),
+         url('fonts/daze-webfont.svg#001_medieval_dazeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'CharpentierRenRedNormal';
+    src: url('fonts/CharpentierRenRedNormal.eot');
+    src: url('fonts/CharpentierRenRedNormal.eot') format('embedded-opentype'),
+         url('fonts/CharpentierRenRedNormal.woff2') format('woff2'),
+         url('fonts/CharpentierRenRedNormal.woff') format('woff'),
+         url('fonts/CharpentierRenRedNormal.ttf') format('truetype'),
+         url('fonts/CharpentierRenRedNormal.svg#CharpentierRenRedNormal') format('svg');
+}
+@font-face {
+    font-family: 'QaskinWhite_PersonalUse';
+    src: url('fonts/QaskinWhite_PersonalUse.eot');
+    src: url('fonts/QaskinWhite_PersonalUse.eot') format('embedded-opentype'),
+         url('fonts/QaskinWhite_PersonalUse.woff2') format('woff2'),
+         url('fonts/QaskinWhite_PersonalUse.woff') format('woff'),
+         url('fonts/QaskinWhite_PersonalUse.ttf') format('truetype'),
+         url('fonts/QaskinWhite_PersonalUse.svg#QaskinWhite_PersonalUse') format('svg');
+}
+header{ 
+    font-family: "QaskinWhite_PersonalUse";
+	
+    margin: -8px;
+    padding: 8px;
+    color: white;
+    background: linear-gradient(180deg, rgba(99,79,70,.35), rgba(99,79,70,.91) 60%);
+    height: 60px;
+    width: 101.3%
+	
+    
+}
+
+h1{
+font-family: "QaskinWhite_PersonalUse";
+position: fixed; left:14px; top:-72px;
+width: 290px;
+font-size: 90px;
+z-index:99;}
+h2#tudo{
+font-family: "CharpentierRenRedNormal";
+position: fixed; left:300px; top:10px;
+font-size: 24px;
+white-space: nowrap}
+h2.oque{
+font-family: "QaskinWhite_PersonalUse";
+position: absolute; left:-70px; top:80px;
+text-align: center;
+width:100%;
+font-size: 52px;
+}
+img#cima-esquerda{position: absolute; top:0%; left:0%;}
+img#cima-direita{position: absolute; top:0%; right:0%; margin-right: 180px;}
+img#baixo-esquerda{position: absolute; bottom:0%; left:0%; margin-bottom: 75px;}
+img#baixo-direita{position: absolute; bottom:0%; right: 0%; margin-bottom: 75px; margin-right: 180px;}
+ul{list-style: none;}
+a:hover{color: white; text-decoration: none;}
+a:visited{color: white; text-decoration: none;}
+a:active{color: white; text-decoration: none;}
+a:link{color: white; text-decoration: none;}
+section{text-align: justify; padding: 40px 250px 100px 120px; z-index: 99; position: absolute; white-space: normal; left:40px; top: 22px; width:calc(100% - 345px); height:calc(100% - 200px); overflow:hidden;}
+nav{background: linear-gradient(180deg, rgba(99,79,70,.91), rgba(99,79,70,.35) 60%); position: fixed; left:-8px; top:76px; width: 185px; height:100%;}
+div#container{white-space: nowrap; background: rgba(118,92,75,.1); position: fixed; left:177px; top:76px; width: 100%; height:100%; }
+div#centro{overflow: hidden; white-space: nowrap; background: linear-gradient(-45deg, rgba(99,79,70,.18), rgba(99,79,70,.70) 98%); position: relative; z-index: -1; left:22px; top:22px; width: calc(100% - 216px); height:calc(100% - 116px); border-radius: 60px}
+iframe{ border: 0px; height:80%; width: 94%; left: 30px; top: 70px; position: absolute; }
+
+#content_top {
+	background-image: url(images/content_top.png);
+	background-repeat: no-repeat;
+	height: 186px;
+	width: 900px;
+	text-align: center;
+	padding-top: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	display: block;
+	border: 0;
+	
+	
+}
+
+#agrupador{height: 100%; margin-left: calc(50% - 510px);}
+#content {
+	background-image: url(images/content_tile.png);
+	background-repeat: repeat-y;
+	padding-left: 100px;
+        padding-right: 100px;
+        width: 820px;
+	height: calc(100% - 430px);
+	display: block;
+	border: 0;
+	
+	
+}
+
+#footer {
+	background-image: url(images/footer.png);
+	background-repeat: no-repeat;
+	padding-bottom: 25px;
+	padding-left: 100px;
+	padding-right: 100px;
+	height: 186px;
+	width: 820px;
+	text-align: center;
+	display: block;
+	border:0;
+	
+	
+	
+	
+}
+body
+{
+        background: url("images/fundo.jpg"); background-repeat: repeat;
+	background-attachment: fixed;
+}
