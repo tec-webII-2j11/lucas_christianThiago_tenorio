@@ -9,11 +9,11 @@ Objetivos do site: Compartilhar informações e cultura
 
 Funcionalidades do site: Search box
 
-Usuário Administrador:
+Usuário Administrador: Deletar cometários
 
-Usuário Logado: 
+Usuário Logado: Inserir comentários
 
-Usuário Visitante: Inserir comentários
+Usuário Visitante: Ler conteúdo dos posts
 
 Mapa de Navegação: 
 

@@ -33,6 +33,7 @@
 0% { opacity: 0; }
 100% { opacity: 1; }
 }
+
 td{padding: 0px; position: relative;}
 h3{margin: 0px 0px 0px 8px; position: absolute; top: 0;  font-family: 'CharpentierRenRedNormal'; font-size: 17px;}
 .fadeIn {
@@ -46,6 +47,7 @@ animation: fadeIn 2s ease-in-out;
 position: absolute;
 left: calc(50% - 446px);
 }
+
 h2#titulo {
 font-family: "QaskinWhite_PersonalUse";
 left:0px; 
@@ -54,6 +56,7 @@ text-align: center;
 width:100%;
 font-size: 52px;
 }
+
 .texto {font-family:"CharpentierRenRedNormal"; font-size: 17px; text-align: justify; position: absolute; left: 60px; white-space: normal; width:90%; height:100%; overflow:hidden;}
 article.descricaocompositor{margin: 0px 0px 0px 8px;  font-family: 'CharpentierRenRedNormal'; font-size:15px; text-align: justify; position: absolute; top: 20px;}
 

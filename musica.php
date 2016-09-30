@@ -137,6 +137,16 @@ Christopher Tye, (nascido c . 1505, Inglaterra, morreu 1572-1573 ) compositor, p
     <td class="tg-yw4l" height="95px"><h3>Tobias Hume - Musicall Humors</h3><article class="descricaocompositor">Tobias Hume (possivelmente 1579 - 16 de abril de 1645) foi um escoc&ecirc;s compositor, violista e soldado. Passou boa parte da vida como um soldado profissional, servindo como um oficial aos ex&eacute;rcitos sueco e russo. A sua m&uacute;sica publicada inclui pe&ccedil;as para violas e can&ccedil;&otilde;es. Eles foram reunidos em duas cole&ccedil;&otilde;es, a primeira parte de Ayres (ou Musicall Humors, 1605) e Capit&atilde;o Humes Poeticall Musicke (1607).</article></td>
   </tr>
 </table>
+<div>---------------------------------------------------------------------------------------------</div>
+<div><?php $arquivo = "musica"; include "comentarios.php" ?></div>
+<div>
+  <form method="post" action="processaComentario.php">
+    <input type="text" name="nome" style="display:block; width:325px;"/>
+    <textarea rows="6" name="comentario" style="display:block; width:650px;">Deixe seu comentário</textarea>
+    <input type="hidden" name="arquivo" id="arquivo" value="musica">
+    <input type="submit" name="Enviar" text="Enviar"/>
+  </form>
+</div>
 </div>
 </div>
 </body>

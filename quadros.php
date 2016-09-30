@@ -62,6 +62,16 @@
     <td class="tg-031e"><h3>Adao e Eva - Albrecht Durer</h3><article class="descricaoquadro">&quot;Ad&atilde;o e Eva&quot; (1504), Albrecht D&uuml;rer - O Renascimento se espalhou por outros pa&iacute;ses europeus, como Fran&ccedil;a, Inglaterra e Alemanha. A forma caracter&iacute;stica da cria&ccedil;&atilde;o art&iacute;stica alem&atilde; nesse per&iacute;odo foi a gravura sobre metal ou madeira. O mais not&aacute;vel gravurista foi Albrecht D&uuml;rer (1471-1528), que se inspirou nas perspectivas dos italianos e usou teorias matem&aacute;ticas para produzir suas obras. Para o trabalho acima, ele construiu r&eacute;guas e compassos especiais para construir as figuras.</article></td>
   </tr>
 </table>
+<div>---------------------------------------------------------------------------------------------</div>
+		<div><?php $arquivo = "quadros"; include "comentarios.php" ?></div>
+		<div>
+		  <form method="post" action="processaComentario.php">
+		    <input type="text" name="nome" style="display:block; width:325px;"/>
+		    <textarea rows="6" name="comentario" style="display:block; width:650px;">Deixe seu comentário</textarea>
+		    <input type="hidden" name="arquivo" id="arquivo" value="quadros">
+		    <input type="submit" name="Enviar" text="Enviar"/>
+		  </form>
+		</div>
 </div>
 		</div>
 		</div>

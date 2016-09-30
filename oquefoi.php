@@ -14,7 +14,7 @@
 		  <p>&nbsp &nbsp O Renascimento cultural manifestou-se primeiro na regi&atilde;o italiana da Toscana, tendo como principais centros as cidades de Floren&ccedil;a e Siena, de onde se difundiu para o resto da pen&iacute;nsula It&aacute;lica e depois para praticamente todos os pa&iacute;ses da Europa Ocidental, impulsionado pelo desenvolvimento da imprensa por Johannes Gutenberg. A It&aacute;lia permaneceu sempre como o local onde o movimento apresentou maior express&atilde;o, por&eacute;m manifesta&ccedil;&otilde;es renascentistas de grande import&acirc;ncia tamb&eacute;m ocorreram na Inglaterra, Alemanha, Pa&iacute;ses Baixos, Portugal e Espanha. Alguns cr&iacute;ticos, por&eacute;m, consideram, por v&aacute;rias raz&otilde;es, que o termo &quot;Renascimento&quot; deve ficar circunscrito &agrave; cultura italiana desse per&iacute;odo, e que a difus&atilde;o europeia dos ideais cl&aacute;ssicos italianos pertence com mais propriedade &agrave; esfera do maneirismo. Al&eacute;m disso, estudos realizados nas &uacute;ltimas d&eacute;cadas t&ecirc;m revisado uma quantidade de opini&otilde;es historicamente consagradas a respeito deste per&iacute;odo, considerando-as insubstanciais ou estereotipadas, e vendo o Renascimento como uma fase muito mais complexa, contradit&oacute;ria e imprevis&iacute;vel do que se sup&ocirc;s ao longo de gera&ccedil;&otilde;es.</p>
 	    </article>
 	    </section>
-        </div>
+	    </div>
 		</body>
 		</html>
 		
