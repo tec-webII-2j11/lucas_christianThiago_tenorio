@@ -1,0 +1,62 @@
+
+@font-face {
+    font-family: 'CharpentierRenRedNormal';
+    src: url('fonts/CharpentierRenRedNormal.eot');
+    src: url('fonts/CharpentierRenRedNormal.eot') format('embedded-opentype'),
+         url('fonts/CharpentierRenRedNormal.woff2') format('woff2'),
+         url('fonts/CharpentierRenRedNormal.woff') format('woff'),
+         url('fonts/CharpentierRenRedNormal.ttf') format('truetype'),
+         url('fonts/CharpentierRenRedNormal.svg#CharpentierRenRedNormal') format('svg');
+}
+@font-face {
+    font-family: 'QaskinWhite_PersonalUse';
+    src: url('fonts/QaskinWhite_PersonalUse.eot');
+    src: url('fonts/QaskinWhite_PersonalUse.eot') format('embedded-opentype'),
+         url('fonts/QaskinWhite_PersonalUse.woff2') format('woff2'),
+         url('fonts/QaskinWhite_PersonalUse.woff') format('woff'),
+         url('fonts/QaskinWhite_PersonalUse.ttf') format('truetype'),
+         url('fonts/QaskinWhite_PersonalUse.svg#QaskinWhite_PersonalUse') format('svg');
+}
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+#meio{text-align: center;}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+table{ border-width: 0px;}
+
+td{padding: 0px; position: relative;}
+h3{margin: 0px 0px 0px 8px; position: absolute; top: 0;  font-family: 'CharpentierRenRedNormal'; font-size:17px;}
+.fadeIn {
+-webkit-animation: fadeIn 2s ease-in-out;
+-moz-animation: fadeIn 2s ease-in-out;
+-o-animation: fadeIn 2s ease-in-out;
+animation: fadeIn 2s ease-in-out;
+}
+#centralisador
+{
+position: absolute;
+left: calc(50% - 380px);
+}
+h2#titulo {
+font-family: "QaskinWhite_PersonalUse";
+left:0px; 
+top:80px;
+text-align: center;
+width:100%;
+font-size: 52px;
+}
+.texto {font-family:"CharpentierRenRedNormal"; font-size: 17px; text-align: justify; position: absolute; left: 60px; white-space: normal; width:90%; height:100%; overflow:hidden;}
+article.descricaoquadro{margin: 0px 0px 0px 8px;  font-family: 'CharpentierRenRedNormal'; font-size:15px; text-align:justify; position: absolute; top: 20px;}
+

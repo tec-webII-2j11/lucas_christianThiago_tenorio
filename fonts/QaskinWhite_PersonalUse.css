@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'QaskinWhite_PersonalUse';
+    src: url('fonts/QaskinWhite_PersonalUse.eot');
+    src: url('fonts/QaskinWhite_PersonalUse.eot') format('embedded-opentype'),
+         url('fonts/QaskinWhite_PersonalUse.woff2') format('woff2'),
+         url('fonts/QaskinWhite_PersonalUse.woff') format('woff'),
+         url('fonts/QaskinWhite_PersonalUse.ttf') format('truetype'),
+         url('fonts/QaskinWhite_PersonalUse.svg#QaskinWhite_PersonalUse') format('svg');
+}

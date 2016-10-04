@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="estilo.css">
+<script language="JavaScript1.3" type="text/javascript"
+src="jse_form.js" charset="utf-8"></script>
+<title>
+Renasça!
+</title>
+<meta charset="utf-8">
+</head>
+
+<body>
+<header>
+<h1 id="titulo">Renasça!</h1>
+ <h2 id="tudo">&nbsp;&nbsp;&nbsp; Tudo sobre o Renascimento Cultural.</h2>
+ <div id="search">
+<form name="jse_Form" action="javascript:search_form(jse_Form)">
+<input type="text" name="d">
+<input type="button" value="Buscar" onclick="search_form(jse_Form)">
+</form>
+</div>
+</header>
+<nav>
+<ul>
+<li><a href="oquefoi.php" target="iframe">O Que Foi</a></li>
+<li><a href="musica.php" target="iframe">Música</a></li>
+<li><a href="literatura.php" target="iframe">Literatura</a></li>
+<li><a href="quadros.php" target="iframe">Plásticas</a></li>
+
+</ul>
+</nav>
+<div id="container">
+  <img id="cima-esquerda" src="images/cima-esquerda.png"/>
+  <img id="cima-direita" src="images/cima-direita.png">
+    <div id="centro">
+       <div id="agrupador">
+	   
+	     <iframe id="iframe" name="iframe" src="oquefoi.php" charset="utf-8">
+		 </iframe>
+         <div id="content_top" src="images/content_top.png"></div>
+         <div id="content" src="images/content_tile.png"></div>
+         <div id="footer" src="images/footer.png"></div>
+	   </div>
+	   
+    </div>
+  <img id="baixo-esquerda" src="images/baixo-esquerda.png">
+  <img id="baixo-direita" src="images/baixo-direita.png">
+</div>
+<script type="text/javascript" src="js.js"></script>
+</body>
+
+</html>
