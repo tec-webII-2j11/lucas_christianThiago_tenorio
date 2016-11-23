@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CharpentierRenRedNormal';
+    src: url('fonts/CharpentierRenRedNormal.eot');
+    src: url('fonts/CharpentierRenRedNormal.eot') format('embedded-opentype'),
+         url('fonts/CharpentierRenRedNormal.woff2') format('woff2'),
+         url('fonts/CharpentierRenRedNormal.woff') format('woff'),
+         url('fonts/CharpentierRenRedNormal.ttf') format('truetype'),
+         url('fonts/CharpentierRenRedNormal.svg#CharpentierRenRedNormal') format('svg');
+}
